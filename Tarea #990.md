@@ -1,0 +1,92 @@
+# Tarea #990 - Cómputo de Alto Desempeño
+
+**Universidad del Caribe**  
+**Alumna:** Liliana Jazmin Basto Euan  
+**Matrícula:** 200300602  
+**Asignatura:** Cómputo de Alto Desempeño  
+**Presentado a:** Ismael Jimenez Sanchez  
+**Programa Educativo:** Ingeniería en Datos e Inteligencia Organizacional  
+
+---
+
+## Introducción
+
+El **cómputo de alto desempeño (HPC)** es esencial para procesar grandes volúmenes de datos y realizar cálculos complejos en diversas áreas, 
+como simulaciones científicas, inteligencia artificial y análisis de datos. A continuación, se presenta una lista detallada de herramientas **open source** utilizadas en HPC.
+
+---
+
+## 1. Frameworks y Bibliotecas para Computación Paralela
+
+Estas herramientas permiten distribuir tareas en múltiples núcleos de CPU o en clusters de computadoras.
+
+- **MPI (Message Passing Interface):** Biblioteca de código abierto para comunicación entre procesos en sistemas HPC.
+- **OpenMP:** API para programación paralela en sistemas de memoria compartida.
+- **CUDA (NVIDIA) y ROCm (AMD):** Frameworks para computación en GPU, utilizados en aprendizaje profundo y simulaciones físicas.
+- **OpenACC:** Modelo de programación para acelerar aplicaciones científicas en GPU sin necesidad de escribir código CUDA.
+
+---
+
+## 2. Sistemas de Gestión de Recursos y Clusters
+
+Para administrar trabajos en clusters de HPC, estas herramientas son fundamentales:
+
+- **Slurm:** Administrador de trabajos para clusters, ampliamente utilizado en supercomputadoras.
+- **PBS (Portable Batch System):** Sistema de programación de trabajos y gestión de carga de trabajo.
+- **HTCondor:** Plataforma para computación distribuida.
+- **Kubernetes:** Usado en HPC para gestionar cargas de trabajo distribuidas.
+
+---
+
+## 3. Procesamiento Distribuido de Datos
+
+Si necesitas manejar grandes volúmenes de datos en paralelo, estas herramientas te serán útiles:
+
+- **Apache Spark:** Framework para procesamiento distribuido de datos en memoria.
+- **Hadoop:** Plataforma para almacenamiento y procesamiento distribuido de datos en clusters.
+- **Dask:** Biblioteca para procesamiento paralelo en Python.
+
+---
+
+## 4. Simulación y Modelado Científico
+
+Herramientas especializadas en simulaciones físicas y químicas:
+
+- **GROMACS:** Software para simulaciones de dinámica molecular.
+- **LAMMPS:** Simulación de materiales a nivel atómico.
+- **OpenFOAM:** Plataforma para simulaciones de dinámica de fluidos computacional (CFD).
+- **Quantum ESPRESSO:** Software para cálculos de estructura electrónica en materiales.
+
+---
+
+## 5. Aprendizaje Automático y Computación Científica
+
+Para tareas de inteligencia artificial y análisis de datos en HPC:
+
+- **TensorFlow:** Framework de aprendizaje profundo optimizado para GPU y clusters.
+- **PyTorch:** Alternativa flexible para aprendizaje profundo y computación distribuida.
+- **XGBoost:** Biblioteca para aprendizaje automático en grandes volúmenes de datos.
+- **FFTW:** Biblioteca para cálculos rápidos de transformadas de Fourier.
+
+---
+
+## 6. Herramientas de Desarrollo y Optimización
+
+Para mejorar el rendimiento de aplicaciones en HPC:
+
+- **Valgrind:** Herramienta para análisis de rendimiento y detección de errores en memoria.
+- **Perf:** Herramienta de análisis de rendimiento en Linux.
+- **Intel VTune:** Optimizador de rendimiento para aplicaciones HPC.
+- **LLVM:** Compilador avanzado para optimización de código en arquitecturas HPC.
+
+---
+
+## Conclusión
+
+El mundo del **cómputo de alto desempeño** está lleno de herramientas poderosas que permiten aprovechar al máximo los recursos computacionales.
+Dependiendo del proyecto, se pueden elegir herramientas enfocadas en **paralelización, gestión de clusters, procesamiento de datos, simulación científica o aprendizaje automático**.
+
+---
+
+**Universidad del Caribe**  
+Cancún, Quintana Roo, México  
