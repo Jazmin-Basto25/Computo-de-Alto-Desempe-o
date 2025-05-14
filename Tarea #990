@@ -7,14 +7,13 @@
 **Presentado a:** Ismael Jimenez Sanchez  
 **Programa Educativo:** Ingeniería en Datos e Inteligencia Organizacional  
 
----
+
 
 ## Introducción
 
 El **cómputo de alto desempeño (HPC)** es esencial para procesar grandes volúmenes de datos y realizar cálculos complejos en diversas áreas, 
 como simulaciones científicas, inteligencia artificial y análisis de datos. A continuación, se presenta una lista detallada de herramientas **open source** utilizadas en HPC.
 
----
 
 ## 1. Frameworks y Bibliotecas para Computación Paralela
 
@@ -25,7 +24,6 @@ Estas herramientas permiten distribuir tareas en múltiples núcleos de CPU o en
 - **CUDA (NVIDIA) y ROCm (AMD):** Frameworks para computación en GPU, utilizados en aprendizaje profundo y simulaciones físicas.
 - **OpenACC:** Modelo de programación para acelerar aplicaciones científicas en GPU sin necesidad de escribir código CUDA.
 
----
 
 ## 2. Sistemas de Gestión de Recursos y Clusters
 
@@ -36,7 +34,6 @@ Para administrar trabajos en clusters de HPC, estas herramientas son fundamental
 - **HTCondor:** Plataforma para computación distribuida.
 - **Kubernetes:** Usado en HPC para gestionar cargas de trabajo distribuidas.
 
----
 
 ## 3. Procesamiento Distribuido de Datos
 
@@ -46,7 +43,6 @@ Si necesitas manejar grandes volúmenes de datos en paralelo, estas herramientas
 - **Hadoop:** Plataforma para almacenamiento y procesamiento distribuido de datos en clusters.
 - **Dask:** Biblioteca para procesamiento paralelo en Python.
 
----
 
 ## 4. Simulación y Modelado Científico
 
